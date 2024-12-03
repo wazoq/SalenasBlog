@@ -191,8 +191,8 @@ function Skincare() {
                   </Link>
 
                   {/* Right link */}
-                  <Link to="/blog/ocean-city" className="flex items-center text-4xl eb-garamond-normal custom-bronze hover:text-current">
-                      <span className="hidden sm:inline">A Local's Guide to Ocean City's Best Spots</span>
+                  <Link to="/blog/palestine" className="flex items-center text-4xl eb-garamond-normal custom-bronze hover:text-current">
+                      <span className="hidden sm:inline">Palestine</span>
                       <MdArrowForwardIos className="mr-10 ml-2 text-custom-bronze" />
                   </Link>
         </div>
