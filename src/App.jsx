@@ -18,6 +18,7 @@ import OceanCity from './Pages/OceanCity';
 import Skincare from './Pages/Skincare';
 import NovBookRec from './Pages/NovBookRec';
 import Palestine from './Pages/Palestine';
+import MentalHealth from './Pages/MentalHealth';
 import './App.css';
 
 
@@ -45,6 +46,7 @@ function App() {
       <Route path="/blog/skincare" element={<Skincare />} />
       <Route path="/blog/NovBookRec" element={<NovBookRec />} />
       <Route path="/blog/palestine" element={<Palestine />} />
+      <Route path="/blog/mental-health" element={<MentalHealth />} />
     </Routes>
   );
 }

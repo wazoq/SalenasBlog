@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 
 const blogs = [
+  { name: "Let's Talk About Mental Health", date: "1/24/25", link: "/blog/mental-health" },
   { name: "November Book Recommendations", date: "11/18/24", link: "/blog/NovBookRec" },
   { name: "Favorite Skincare Products", date: "8/22/24", link: "/blog/skincare" },
   { name: "Palestine", date: "8/7/24", link: "/blog/palestine" },
