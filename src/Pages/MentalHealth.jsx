@@ -11,12 +11,12 @@ import ReactGA from "react-ga4";
 
 function NovBookRec() {
     useEffect(() => {
-        // ReactGA.send({
-        //   hitType: "pageview",
-        //   page: "/my-path",
-        //   title: "Let&#39;s Talk About Mental Health",
-        // });
-        //   window.scrollTo(0, 0); // Scrolls to the top when component mounts
+        ReactGA.send({
+          hitType: "pageview",
+          page: "/my-path",
+          title: "Let&#39;s Talk About Mental Health",
+        });
+          window.scrollTo(0, 0); // Scrolls to the top when component mounts
       }, []);
         return (
           <div className='w-full bg-black text-white min-h-screen'>
@@ -118,10 +118,23 @@ space for discomfort and offer support for one another.
             </div>
           </div>
 
-              <li className="flex items-center justify-end mt-40 mb-20">
-                  <Link to="/blog/NovBookRec" className="flex items-center text-4xl eb-garamond-normal custom-bronze mr-0 sm:mr-20 hover:text-current">November Book Recommendations
+            
 
-                      <MdArrowForwardIos className="ml-2 text-custom-bronze" /></Link></li>
+                      
+                      <div className="mt-40 mb-20 flex justify-between">
+                  {/* Left link */}
+                  <Link to="/blog/puerto-rico" className="flex items-center text-4xl eb-garamond-normal custom-bronze hover:text-current">
+                      <MdArrowBackIosNew className="ml-10 mr-2 text-custom-bronze" />
+                      <span className="hidden sm:inline">Puerto Rico: Tips, Tricks, and Hidden Gems</span>
+                  </Link>
+
+                  {/* Right link */}
+                  <Link to="/blog/NovBookRec" className="flex items-center text-4xl eb-garamond-normal custom-bronze hover:text-current">
+                      <span className="hidden sm:inline">November Book Recommendations</span>
+                      <MdArrowForwardIos className="mr-10 ml-2 text-custom-bronze" />
+                  </Link>
+        </div>
+    
 
               
     

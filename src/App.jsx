@@ -19,6 +19,7 @@ import Skincare from './Pages/Skincare';
 import NovBookRec from './Pages/NovBookRec';
 import Palestine from './Pages/Palestine';
 import MentalHealth from './Pages/MentalHealth';
+import PuertoRico from './Pages/PuertoRico'
 import './App.css';
 
 
@@ -47,6 +48,8 @@ function App() {
       <Route path="/blog/NovBookRec" element={<NovBookRec />} />
       <Route path="/blog/palestine" element={<Palestine />} />
       <Route path="/blog/mental-health" element={<MentalHealth />} />
+      <Route path="/blog/puerto-rico" element={<PuertoRico />} />
+
     </Routes>
   );
 }
