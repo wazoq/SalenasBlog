@@ -149,7 +149,7 @@ function NovBookRec() {
 
             
                       <div className="mt-40 mb-20 flex justify-between">
-                  {/* Left link */}
+                  {/* Left link*/}
                   <Link to="/blog/mental-health" className="flex items-center text-4xl eb-garamond-normal custom-bronze hover:text-current">
                       <MdArrowBackIosNew className="ml-10 mr-2 text-custom-bronze" />
                       <span className="hidden sm:inline">Let's Talk About Mental Health</span>
