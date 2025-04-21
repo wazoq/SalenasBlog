@@ -96,6 +96,8 @@ function NovBookRec() {
                             you like. It’s helpful to pack snacks in advance and check out menus beforehand.
                         </p>
 
+                        <img src={myImage2} alt="" className="mx-auto w-auto h-auto mt-10" />
+
                         <p className="text-start flex justify-start text-xl eb-garamond-bold mt-5 custom-bronze">
                             Places to Visit
                         </p>
