@@ -34,7 +34,6 @@ function NovBookRec() {
 
                     <div className="max-w-[1200px] mx-auto "> {/* Adjust the max-width to match your image width */}
                         <img src={myImage} alt="" className="mx-auto w-auto h-auto" />
-                        <img src={myImage2} alt="" className="mx-auto w-auto h-auto mt-10" />
 
 
                         <p className="text-start text-xl eb-garamond-normal mt-10 leading-relaxed ">
