@@ -121,7 +121,7 @@ space for discomfort and offer support for one another.
             
 
                       
-                      <div className="mt-40 mb-20 flex justify-between">
+              <div className="mt-40 mb-20 flex justify-between">
                   {/* Left link */}
                   <Link to="/blog/puerto-rico" className="flex items-center text-4xl eb-garamond-normal custom-bronze hover:text-current">
                       <MdArrowBackIosNew className="ml-10 mr-2 text-custom-bronze" />
@@ -133,7 +133,7 @@ space for discomfort and offer support for one another.
                       <span className="hidden sm:inline">November Book Recommendations</span>
                       <MdArrowForwardIos className="mr-10 ml-2 text-custom-bronze" />
                   </Link>
-        </div>
+              </div>
     
 
               

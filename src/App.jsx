@@ -20,6 +20,7 @@ import NovBookRec from './Pages/NovBookRec';
 import Palestine from './Pages/Palestine';
 import MentalHealth from './Pages/MentalHealth';
 import PuertoRico from './Pages/PuertoRico'
+import WhatChildrenCanTeachUs from './Pages/WhatChildrenCanTeachUs';
 import './App.css';
 
 
@@ -49,6 +50,7 @@ function App() {
       <Route path="/blog/palestine" element={<Palestine />} />
       <Route path="/blog/mental-health" element={<MentalHealth />} />
       <Route path="/blog/puerto-rico" element={<PuertoRico />} />
+      <Route path="/blog/What-Children-Can-Teach-Us" element={<WhatChildrenCanTeachUs />} />
 
     </Routes>
   );

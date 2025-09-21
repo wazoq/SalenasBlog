@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 
 const blogs = [
+  { name: "What Children Can Teach Us", date: "09/20/25", link: "/blog/What-Children-Can-Teach-Us" },
   { name: "Puerto Rico: Tips, Tricks, and Hidden Gems", date: "04/19/25", link: "/blog/puerto-rico" },
   { name: "Let's Talk About Mental Health", date: "1/24/25", link: "/blog/mental-health" },
   { name: "November Book Recommendations", date: "11/18/24", link: "/blog/NovBookRec" },

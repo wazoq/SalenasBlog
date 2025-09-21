@@ -148,12 +148,20 @@ function NovBookRec() {
                 </div>
             </div>
 
-            <li className="flex items-center justify-end mt-40 mb-20">
-                <Link to="/blog/mental-health" className="flex items-center text-4xl eb-garamond-normal custom-bronze mr-0 sm:mr-20 hover:text-current">Let's Talk About Mental Health
 
-                    <MdArrowForwardIos className="ml-2 text-custom-bronze" /></Link></li>
+                    <div className="mt-40 mb-20 flex justify-between">
+                  {/* Left link */}
+                  <Link to="/blog/What-Children-Can-Teach-Us" className="flex items-center text-4xl eb-garamond-normal custom-bronze hover:text-current">
+                      <MdArrowBackIosNew className="ml-10 mr-2 text-custom-bronze" />
+                      <span className="hidden sm:inline">What Children Can Teach Us</span>
+                  </Link>
 
-
+                  {/* Right link */}
+                  <Link to="/blog/mental-health" className="flex items-center text-4xl eb-garamond-normal custom-bronze hover:text-current">
+                      <span className="hidden sm:inline">Let's Talk About Mental Health</span>
+                      <MdArrowForwardIos className="mr-10 ml-2 text-custom-bronze" />
+                  </Link>
+              </div>                       
 
 
 
