@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 
 const blogs = [
+  { name: "When the Streets of Jember Turn into a Runway ", date: "12/1/25", link: "/blog/When-the-Streets-of-Jember-Turn-into-a-Runway" },
   { name: "What Children Can Teach Us", date: "09/20/25", link: "/blog/What-Children-Can-Teach-Us" },
   { name: "Puerto Rico: Tips, Tricks, and Hidden Gems", date: "04/19/25", link: "/blog/puerto-rico" },
   { name: "Let's Talk About Mental Health", date: "1/24/25", link: "/blog/mental-health" },

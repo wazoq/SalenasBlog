@@ -21,6 +21,7 @@ import Palestine from './Pages/Palestine';
 import MentalHealth from './Pages/MentalHealth';
 import PuertoRico from './Pages/PuertoRico'
 import WhatChildrenCanTeachUs from './Pages/WhatChildrenCanTeachUs';
+import Jember from './Pages/Jember';
 import './App.css';
 
 
@@ -51,6 +52,9 @@ function App() {
       <Route path="/blog/mental-health" element={<MentalHealth />} />
       <Route path="/blog/puerto-rico" element={<PuertoRico />} />
       <Route path="/blog/What-Children-Can-Teach-Us" element={<WhatChildrenCanTeachUs />} />
+      <Route path="/blog/When-the-Streets-of-Jember-Turn-into-a-Runway" element={<Jember />} />
+      
+     
 
     </Routes>
   );
